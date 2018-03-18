@@ -1,0 +1,20 @@
+{
+  "name" : "demo",
+  "refmt": 3,
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "stylite-ppx"
+  ],
+  "ppx-flags": [
+    "stylite-ppx/ppx"
+  ],
+  "bsc-flags": [
+    "-bs-no-version-header",
+    "-bs-super-errors"
+  ],
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ]
+}
